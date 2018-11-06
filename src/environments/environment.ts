@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // env: 'off',
+  basePath: 'http://192.168.150.190:8008/',
+  socketPath: 'http://192.168.150.190:8008/',
 };
 
 /*

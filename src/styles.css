@@ -1,1 +1,273 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  word-wrap: break-word;
+  -webkit-text-size-adjust: none;
+  background-color: #f3f3f3;
+  height: 100%;
+}
+
+body,
+p,
+th,
+td,
+input,
+button,
+select,
+textarea {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 100%;
+}
+
+body,
+div,
+p,
+table,
+th,
+td,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+input,
+select,
+textarea,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  vertical-align: middle;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 12px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+label {
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+table {
+  border: 0;
+  border-spacing: 0;
+}
+
+.t-red {
+  color: #f04137;
+}
+
+/* column */
+
+.col-column {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-xs-1 {
+  width: 100%;
+}
+
+.col-xs-2 {
+  width: 50%;
+}
+
+.col-xs-3 {
+  width: 33.3333%;
+}
+
+.col-xs-4 {
+  width: 25%;
+}
+
+/* text */
+
+.t-sz-s {
+  font-size: 11px;
+}
+
+.t-sz-n {
+  font-size: 12px;
+}
+
+.t-sz-l {
+  font-size: 14px;
+}
+
+.t-sz-xl {
+  font-size: 18px;
+}
+
+/* button */
+
+.btn {
+  display: inline-block;
+  outline: 0;
+  transition: background-color 0.5s ease;
+}
+
+.btn-sz-n {
+  font-size: 12px;
+  padding: 0 10px;
+  height: 30px;
+}
+
+a.btn-sz-n {
+  line-height: 28px;
+}
+
+.btn-sz-s {
+  font-size: 12px;
+  padding: 0 10px;
+  height: 24px;
+}
+
+.btn-search {
+  width: 80px;
+  font-size: 12px;
+  height: 32px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #45a742;
+}
+
+.btn-green:hover {
+  background-color: #53c750;
+}
+
+.btn-green:active {
+  background-color: #358133;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #f04137;
+}
+
+/* .btn-red:hover {
+    background-color: #cc5a5a;
+  } */
+
+/* .btn-red:active {
+    background-color: #7f3838;
+  } */
+
+.btn-blue {
+  color: #fff;
+  background-color: #4481c0;
+}
+
+.btn-blue:hover {
+  background-color: #4e93db;
+}
+
+.btn-blue:active {
+  background-color: #366698;
+}
+
+.btn-gray {
+  color: #fff;
+  background-color: #a6a6a6;
+}
+
+.btn-layer {
+  padding: 0 27px;
+  height: 35px;
+  font-size: 14px;
+}
+
+.btn-normal {
+  width: 130px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.align-l {
+  text-align: left;
+}
+
+.align-r {
+  text-align: right;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* input number타입 화살표 지우기 */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
