@@ -2,10 +2,14 @@
 
 - Simple Chat Apps
 
+
+
 ## 개발언어
 
 - Angular v7 (Client)
 - Angular-Cli 기반으로 제작 (Client)
+
+
 
 ## 추가 패키지
 
@@ -19,13 +23,19 @@
 >
 > @types/socket.io-client: 1.4.32
 
+
+
 ## 서버 소스 URL
 - https://github.com/dlwo12345/chat-server 
+
+
 
 ## 클라이언트 실행방법
 - npm install
 - npm start
 - http://localhost:5900 url로 접속
+
+
 
 ## 실행 과정
 - 서버 실행 -> 클라이언트 실행 -> localhost url 접속
