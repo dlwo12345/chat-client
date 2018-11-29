@@ -1,27 +1,31 @@
-# ChatApp
+## express, angular, socket.io를 사용하여 간단한 채팅 앱 만들기
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+- Simple Chat Apps
 
-## Development server
+## 개발언어
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular v7 (Client)
+- Angular-Cli 기반으로 제작 (Client)
 
-## Code scaffolding
+## 추가 패키지
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- socket.io-client 패키지
 
-## Build
+> npm install socket.io-client --save
+>
+> socket.io-client: 2.1.1
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+> npm install @types/socket.io-client --save
+>
+> @types/socket.io-client: 1.4.32
 
-## Running unit tests
+## 서버 소스 URL
+- https://github.com/dlwo12345/chat-server 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 클라이언트 실행방법
+- npm install
+- npm start
+- http://localhost:5900 url로 접속
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 실행 과정
+- 서버 실행 -> 클라이언트 실행 -> localhost url 접속
