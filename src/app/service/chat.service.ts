@@ -15,7 +15,6 @@ export class ChatService {
 
   /**
    * 채팅 send
-   * @param msg 
    */
   sendMessage(msg: string) {
     this.socket.emit('sendMessage', { msg });
@@ -29,6 +28,10 @@ export class ChatService {
     return Observable.create(observer => {
       // 입장 이벤트
       this.socket.on('connection', msg => {
+        observer.next(msg);
+      });
+      // 다른 유저 입장 이벤트
+      this.socket.on('userConnection', msg => {
         observer.next(msg);
       });
       // 메세지 전송 이벤트
