@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   // env: 'off',
-  basePath: 'http://192.168.150.190:8008/',
-  socketPath: 'http://192.168.150.190:8008/',
+  basePath: 'http://localhost:8008/',
+  socketPath: 'http://localhost:8008/',
 };
 
 /*
